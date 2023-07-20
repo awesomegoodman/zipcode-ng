@@ -203,7 +203,7 @@ This package is open-source and distributed under the [MIT License](https://open
 
 ## Version
 
-Current version: 1.0.0
+Current version: 0.0.1
 
 ## Author
 
