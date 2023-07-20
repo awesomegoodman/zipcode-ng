@@ -1,0 +1,14 @@
+# .gitignore
+
+# Ignore node_modules directory and its content
+/node_modules/
+
+# Ignore the dist directory and its content (generated files from Babel), and Babel config itself
+/dist/
+.babelrc
+
+# Ignore package-lock.json file
+/package-lock.json
+
+# Ignore test files
+__tests__

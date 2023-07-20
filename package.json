@@ -1,0 +1,38 @@
+{
+  "name": "zipcode-ng",
+  "version": "1.0.0",
+  "description": "Retrieve postal/zip code details of places in Nigeria with ease using the ZipCodeNG package. Seamlessly integrate postal code data into your client-side JavaScript applications. This package simplifies API calls to the VendBox service, providing accurate state-level postal information for Nigerian locations.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist",
+    "postinstall": "",
+    "preinstall": "",
+    "create-project": "npm list --depth 0 --json || (npm init -y && node -e \"const fs = require('fs'); const packageJson = require('./package.json'); packageJson.type = 'module'; fs.writeFileSync('./package.json', JSON.stringify(packageJson, null, 2));\")"
+  },
+  "keywords": [
+    "VENDBOX",
+    "POSTAL CODE",
+    "ZIP CODE",
+    "NIGERIA"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesomegoodman/zipcode-ng.git"
+  },
+  "author": "Awesome Goodman",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "jest": "^29.6.1"
+  },
+  "initConfig": {
+    "name": "my-zipcode-app",
+    "version": "1.0.0",
+    "description": "My zipcode app using ZipCode-NG",
+    "license": "MIT"
+  }
+}
