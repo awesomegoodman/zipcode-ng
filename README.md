@@ -102,6 +102,8 @@ The retrieved state data object will have the following structure:
   "postal_code_format": "######",
   "postal_code_regex": "^(\\d{6})$",
   "primary_postal_code": "970001",
+  "land_mass_sq_km": "34,059 km²",
+  "population_density": "Approximately 6 million people",
   "region": {
     "id": 3,
     "full_name": "North Central",
@@ -178,6 +180,8 @@ Here's an explanation of each property:
 - **postal_code_format:** The format of the postal code for the state (here, "######" indicates a 6-digit code).
 - **postal_code_regex:** The regular expression that validates the postal code for the state (here, "^(\\d{6})$" matches a 6-digit number).
 - **primary_postal_code:** The primary postal code for the state (in this case, "970001").
+- **land_mass_sq_km:** The land mass of the state of Benue is "34,059 km²," indicating its total area in square kilometers.
+- **population_density:** The approximate population density of Benue state is "Approximately 6 million people," giving an estimation of the number of people per square kilometer.
 - **region:** An object representing the region to which the state belongs, with the following properties:
   - **id:** Unique identifier for the region in the dataset.
   - **full_name:** The full name of the region (here, "North Central").
