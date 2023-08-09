@@ -1,7 +1,7 @@
 // CallApi is strictly for ease of the package development, and isn't a dependency for the overall package 
 const callApi = async (url, options = {}) => {
+  const DOMAIN2 = "https://vendbox-backend-v2-32fea84ec7dd.herokuapp.com";
   const DOMAIN1 = "http://127.0.0.1:8000";
-  const DOMAIN2 = "https://vendbox-backend.herokuapp.com";
 
   try {
     // Try fetching data from the first domain using 'fetch' API
@@ -14,7 +14,6 @@ const callApi = async (url, options = {}) => {
       return response.json();
     } catch (error) {
       // If both domains fail, log an error and re-throw the error
-      console.error(`Failed to connect to both ${DOMAIN1} and ${DOMAIN2}.`);
       throw new Error('Please make sure you are connected to the internet.');
     }
   }
