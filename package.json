@@ -1,6 +1,6 @@
 {
   "name": "zipcode-ng",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Retrieve postal/zip code details of places in Nigeria with ease using the ZipCodeNG package. Seamlessly integrate postal code data into your client-side JavaScript applications. This package simplifies API calls to the VendBox service, providing accurate state-level postal information for Nigerian locations.",
   "main": "src/index.js",
   "type": "module",
